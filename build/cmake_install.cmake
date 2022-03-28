@@ -1,4 +1,4 @@
-# Install script for directory: /Users/bianshuhao/code/C:C++/ROS tools
+# Install script for directory: /Users/bianshuhao/code/C:C++/launch_former
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/bianshuhao/code/C:C++/ROS tools/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/bianshuhao/code/C:C++/launch_former/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -54,10 +54,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/bianshuhao/code/C:C++/ROS tools"
+CMAKE_SOURCE_DIR = /Users/bianshuhao/code/C:C++/launch_former
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/bianshuhao/code/C:C++/ROS tools/build"
+CMAKE_BINARY_DIR = /Users/bianshuhao/code/C:C++/launch_former/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/test1.dir/clean
 CMakeFiles/test1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/bianshuhao/code/C:C++/ROS tools/build/CMakeFiles" --progress-num=1,2 "Built target test1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bianshuhao/code/C:C++/launch_former/build/CMakeFiles --progress-num=1,2 "Built target test1"
 .PHONY : CMakeFiles/test1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/bianshuhao/code/C:C++/ROS tools/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bianshuhao/code/C:C++/launch_former/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/bianshuhao/code/C:C++/ROS tools/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bianshuhao/code/C:C++/launch_former/build/CMakeFiles 0
 .PHONY : CMakeFiles/test1.dir/rule
 
 # Convenience name for target.
