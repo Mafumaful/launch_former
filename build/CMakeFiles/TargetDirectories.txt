@@ -1,3 +1,0 @@
-/Users/bianshuhao/code/C:C++/launch_former/build/CMakeFiles/test1.dir
-/Users/bianshuhao/code/C:C++/launch_former/build/CMakeFiles/edit_cache.dir
-/Users/bianshuhao/code/C:C++/launch_former/build/CMakeFiles/rebuild_cache.dir
