@@ -1,1 +1,2 @@
-roslaunch a b
+rosrun rqt_gui rqt_gui
+roslaunch realsense2_camera rs_t265.launch

@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="rqt_gui" name="rqt_gui_node" type="rqt_gui" />
+    <include file="$(find realsense2_camera)/launch/rs_t265.launch" />
+</launch>
