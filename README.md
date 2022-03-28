@@ -3,7 +3,7 @@
 
 ## 如何使用
 
-建立一个build文件，在build文件里面：
+在工作空间里面，建立一个build文件，在build文件里面：
 
 ```bash
 cmake .. 
@@ -12,4 +12,4 @@ make
 ```
 即可。
 
-在source目录下面存放你的roslaunch的命令。
+在source/file.txt 目录下面存放你的roslaunch的命令,实例已经给出。
